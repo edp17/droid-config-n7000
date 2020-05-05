@@ -4,8 +4,8 @@
 %define device n7000
 %define vendor samsung
 
-%define vendor_pretty SAMSUNG
-%define device_pretty Samsung N7000
+%define vendor_pretty Samsung
+%define device_pretty Galaxy Note N7000
 
 %define dcd_path ./
 
