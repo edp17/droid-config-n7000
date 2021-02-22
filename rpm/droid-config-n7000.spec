@@ -17,7 +17,7 @@
 # For 4-5.5" device screen sizes of 16:9 ratio, use this formula (hold portrait):
 # pixel_ratio = 4.5/DiagonalDisplaySizeInches * HorizontalDisplayResolution/540
 # Other screen sizes and ratios will require more trial-and-error.
-%define pixel_ratio 2.0
+%define pixel_ratio 1.25
 
 # We assume most devices will
 %define have_modem 1
@@ -25,6 +25,8 @@
 Provides: ofono-configs
 
 %include droid-configs-device/droid-configs.inc
+%include patterns/patterns-sailfish-device-adaptation-n7000.inc
+%include patterns/patterns-sailfish-device-configuration-n7000.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
