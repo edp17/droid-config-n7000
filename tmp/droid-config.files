@@ -44,6 +44,7 @@
 /etc/sap.conf
 /etc/media_codecs_ffmpeg.xml
 /etc/acdbdata
+/var/lib/environment/compositor/droid-hal-device.conf
 /var/lib/environment/nemo/60-multimedia.conf
 /var/lib/environment/ofono/noplugin.conf
 /lib/udev/rules.d/997-droid-drm.rules
@@ -85,8 +86,13 @@
 /usr/lib/systemd/system/enable_notification.service
 /usr/lib/systemd/system/local-fs.target.wants/android.mount
 /usr/lib/systemd/system/multi-user.target.wants/enable_notification.service
+/usr/lib/systemd/system/multi-user.target.wants/spen.service
 /usr/lib/systemd/system/android.mount
+/usr/lib/systemd/system/spen.service
+/usr/lib/systemd/system/actdead-pre.target.wants/droid-hal-init.service
 /usr/bin/droid/enable_notifications.sh
+/usr/bin/droid/evtest
+/usr/bin/droid/spen-daemon.sh
 /usr/bin/logcat
 /usr/bin/clear
 /usr/bin/hotspot.sh

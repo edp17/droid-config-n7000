@@ -22,6 +22,7 @@ Requires: lipstick-qt5-tools
 Requires: libhybris-tests
 Requires: busybox-static
 Requires: openssh-server
+Requires: gnu-bash
 Requires: zypper
 Requires: psmisc-tools
 

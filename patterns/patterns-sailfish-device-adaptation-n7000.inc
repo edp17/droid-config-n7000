@@ -17,7 +17,7 @@ Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
 # Sensors
-Requires: hybris-libsensorfw-qt5
+Requires: hybris-libsensorfw-qt5-hal
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
@@ -28,6 +28,8 @@ Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
 Requires: pulseaudio-modules-droid-glue
+#edp17- for bluez4
+Requires: pulseaudio-modules-bluez4
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -44,6 +46,7 @@ Requires: gstreamer1.0-plugins-bad
 Requires: nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
 Requires: gstreamer1.0-droid
+Requires: gmp-droid
 
 Requires: audiosystem-passthrough-dummy-af
 
@@ -63,7 +66,7 @@ Requires: jolla-devicelock-daemon-encsfa
 #Requires: sailfish-device-encryption
 
 # For GPS
-Requires: geoclue-provider-hybris
+Requires: geoclue-provider-hybris-hal
 
 # For FM radio on some QCOM devices
 #Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
